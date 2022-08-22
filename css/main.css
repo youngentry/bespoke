@@ -1,0 +1,109 @@
+:root {
+    --mc: #d97e59;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 
+.Header;;
+ */
+.Header {
+    background: var(--mc);
+    color: #fff;
+}
+.Header nav {
+    display: flex;
+    justify-content: space-between;
+    line-height: 100px;
+}
+.Header nav h1 {
+    font-size: 0;
+}
+.Header nav > ul {
+    display: flex;
+    gap: 30px;
+}
+.Header .center {
+    font-size: 17px;
+}
+.Header .right {
+    font-size: 21px;
+}
+/* 
+.Header;;
+ */
+
+/* 
+.MainVisual;;
+ */
+.MainVisual {
+    background: #ddd;
+}
+.MainVisual .MainSlider figure {
+    height: 100vh;
+}
+.MainVisual .itm01 {
+    background: url(../img/m3840x1440/kv_v2.jpg) no-repeat center center/cover;
+}
+.MainVisual .itm02 {
+    background: url(../img/m3840x1440/kv_v3.jpg) no-repeat center center/cover;
+}
+.MainVisual .itm03 {
+    background: url(../img/m3840x1440/kv_v4.jpg) no-repeat center center/cover;
+}
+/* 
+.MainVisual;;
+ */
+
+/* 
+.c01;;
+ */
+.c01 {
+    background: #fff;
+}
+/* 
+.c01;;
+ */
+
+/* 
+.c02;;
+ */
+.c02 {
+    background: #ddd;
+}
+/* 
+.c02;;
+ */
+
+/* 
+.c03;;
+ */
+.c03 {
+    background: #fff;
+}
+/* 
+.c03;;
+ */
+
+/* 
+.c04;;
+ */
+.c04 {
+    background: #ddd;
+}
+/* 
+.c04;;
+ */
+
+/* 
+.c05;;
+ */
+.c05 {
+    background: #fff;
+}
+/* 
+.c05;;
+ */
