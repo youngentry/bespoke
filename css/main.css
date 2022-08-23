@@ -1,10 +1,17 @@
 :root {
     --mc: #d97e59;
 }
+.Wrapper {
+    letter-spacing: -0.025em;
+    /* width: 1920px; */
+}
 
 .container {
     width: 1200px;
     margin: 0 auto;
+}
+.titImg {
+    margin-bottom: 10px;
 }
 
 /* 
@@ -40,10 +47,13 @@
 .MainVisual;;
  */
 .MainVisual {
-    background: #ddd;
+    position: relative;
+    width: 100%;
+    margin-bottom: 120px;
+    overflow-x: hidden;
 }
-.MainVisual .MainSlider figure {
-    height: 100vh;
+.MainVisual .mainSlider figure {
+    height: calc(100vh - 100px);
 }
 .MainVisual .itm01 {
     background: url(../img/m3840x1440/kv_v2.jpg) no-repeat center center/cover;
@@ -54,28 +64,157 @@
 .MainVisual .itm03 {
     background: url(../img/m3840x1440/kv_v4.jpg) no-repeat center center/cover;
 }
+.MainVisual .swiper-pagination {
+    bottom: 30px;
+}
+.MainVisual .swiper-pagination-bullet {
+    width: 150px;
+    height: 5px;
+    border-radius: 0;
+    background: var(--mc);
+    transition: 0.5s;
+}
+.mainSlogan {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1.1;
+    width: 800px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 1px #000;
+}
+.mainSlogan span {
+    font-weight: 500;
+}
+.mainSlogan .swiper-slide {
+    opacity: 0;
+}
+.mainSlogan .swiper-slide-active {
+    opacity: 1;
+}
 /* 
 .MainVisual;;
  */
 
 /* 
-.c01;;
+.Connect;;
  */
-.c01 {
+.Connect {
     background: #fff;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.Connect h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.Connect p {
+    font-size: 19px;
+    font-weight: 300;
+}
+.Connect strong {
+    font-size: 23px;
+}
+.Connect span::after {
+    content: "";
+    display: inline-block;
+    width: 200px;
+    height: 1px;
+    margin: 0 10px;
+    background: #000;
+    vertical-align: baseline;
 }
 /* 
-.c01;;
+.Connect;;
  */
 
 /* 
-.c02;;
+.Smart;;
  */
-.c02 {
-    background: #ddd;
+.Smart {
+    text-align: center;
+    margin-bottom: 150px;
+}
+.Smart .container {
+}
+.Smart .container .content {
+    display: flex;
+}
+.Smart .left,
+.Smart .right {
+    flex: 1;
+}
+.Smart .left {
+}
+
+.Smart h2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+.Smart p {
+    height: 50px;
+    padding: 15px 30px 15px 30px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #000;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.Smart p.on {
+    height: 460px;
+    transition: 0.5s;
+}
+.Smart .left .img01 {
+    background: url(../img/smart/cut01_paint_cooking.jpg) no-repeat top
+        center/cover;
+    color: #ff7447;
+}
+.Smart .left .img02 {
+    background: url(../img/smart/cut01_paint_Energy.jpg) no-repeat top
+        center/cover;
+    color: #3e9efd;
+}
+.Smart .left .img03 {
+    background: url(../img/smart/cut01_paint_aircare.jpg) no-repeat top
+        center/cover;
+    color: #00b5fa;
+}
+.Smart .left .img04 {
+    background: url(../img/smart/cut01_paint_clothingcare.jpg) no-repeat top
+        center/cover;
+    color: #32bdac;
+}
+.Smart .left .img05 {
+    background: url(../img/smart/cut01_paint_homecare.jpg) no-repeat top
+        center/cover;
+}
+.Smart .txt {
+    display: none;
+}
+.Smart .txt.on {
+    display: block;
+}
+.Smart .txt h3 {
+    font-size: 23px;
+    line-height: 1.25;
+}
+.Smart .txt span {
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
 }
 /* 
-.c02;;
+.Smart;;
  */
 
 /* 
