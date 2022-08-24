@@ -27,10 +27,10 @@ window.addEventListener("DOMContentLoaded", () => {
     // });
 
     const smartP = document.querySelectorAll(".Smart .left>p");
-    let idx = 0;
-    smartP.forEach((i, index) =>
+    // let idx = 0;
+    smartP.forEach((i, idx) =>
         i.addEventListener("click", (e) => {
-            idx = index;
+            // idx = index;
             smartP.forEach((i) => {
                 i.classList.remove("on");
             });
