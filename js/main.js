@@ -27,17 +27,8 @@ window.addEventListener("DOMContentLoaded", () => {
     // });
 
     const smartP = document.querySelectorAll(".Smart .left>p");
-<<<<<<< HEAD
-    let idx = 0;
-    smartP.forEach((i, index) =>
-        i.addEventListener("click", (e) => {
-            idx = index;
-=======
-    // let idx = 0;
     smartP.forEach((i, idx) =>
         i.addEventListener("click", (e) => {
-            // idx = index;
->>>>>>> parent of f3c1a04 (220824)
             smartP.forEach((i) => {
                 i.classList.remove("on");
             });
