@@ -110,7 +110,7 @@
     margin-bottom: 120px;
 }
 .Connect h2 {
-    font-size: 30px;
+    font-size: 36px;
     margin-bottom: 10px;
     font-weight: 500;
 }
@@ -150,7 +150,7 @@
     display: inline-block;
     font-size: 19px;
     font-weight: 300;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .Product .content > figure {
     margin-bottom: 15px;
@@ -204,7 +204,7 @@
     display: inline-block;
     font-size: 19px;
     font-weight: 300;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .Smart .left p {
     height: 50px;
@@ -255,15 +255,12 @@
 }
 .Smart .txt h3 {
     margin-top: 50px;
-    margin-bottom: 15px;
-    font-size: 21px;
+    margin-bottom: 20px;
     line-height: 1.25;
-}
-.Smart .txt span {
-    display: block;
     font-size: 23px;
     font-weight: 500;
 }
+
 .Smart .box {
     display: flex;
     flex-wrap: wrap;
@@ -314,7 +311,7 @@
     text-align: center;
 }
 .Bespoke h2 {
-    font-size: 30px;
+    font-size: 36px;
     margin-bottom: 10px;
     font-weight: 500;
 }
@@ -322,7 +319,7 @@
     display: inline-block;
     font-size: 19px;
     font-weight: 300;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .Bespoke .content {
     display: flex;
@@ -393,7 +390,7 @@
     display: inline-block;
     font-size: 19px;
     font-weight: 300;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .Story .storySlider {
@@ -415,6 +412,7 @@
     font-size: 15px;
     font-weight: 300;
 }
+
 /* 
 .Story
  */

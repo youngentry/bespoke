@@ -43,7 +43,6 @@ window.addEventListener("DOMContentLoaded", () => {
             disableOnInteraction: false,
         },
         effect: "coverflow",
-        grabCursor: true,
         centeredSlides: true,
         slidesPerView: "2",
         coverflowEffect: {
