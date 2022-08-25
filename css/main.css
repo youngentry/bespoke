@@ -2,7 +2,6 @@
     --mc: #d97e59;
 }
 .Wrapper {
-    font-family: "Pretendard";
     letter-spacing: -0.025em;
     /* width: 1920px; */
 }
@@ -16,7 +15,7 @@
 }
 
 /* 
-.Header
+.Header;;
  */
 .Header {
     background: var(--mc);
@@ -42,11 +41,11 @@
     gap: 15px;
 }
 /* 
-.Header
+.Header;;
  */
 
 /* 
-.MainVisual
+.MainVisual;;
  */
 .MainVisual {
     position: relative;
@@ -99,11 +98,11 @@
     opacity: 1;
 }
 /* 
-.MainVisual
+.MainVisual;;
  */
 
 /* 
-.Connect
+.Connect;;
  */
 .Connect {
     background: #fff;
@@ -129,18 +128,18 @@
     height: 1px;
     margin: 0 10px;
     background: #000;
-    vertical-align: middle;
+    vertical-align: baseline;
 }
 /* 
-.Connect
+.Connect;;
  */
 
 /* 
-.Smart
+.Smart;;
  */
 .Smart {
     text-align: center;
-    margin-bottom: 120px;
+    margin-bottom: 150px;
 }
 .Smart .container {
 }
@@ -152,19 +151,12 @@
     flex: 1;
 }
 .Smart .left {
-    height: 700px;
 }
 
 .Smart h2 {
     font-size: 36px;
     font-weight: 500;
-    margin-bottom: 10px;
-}
-.Smart .container > span {
-    display: inline-block;
-    font-size: 19px;
-    font-weight: 300;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 .Smart p {
     height: 50px;
@@ -172,15 +164,16 @@
     margin-bottom: 10px;
     margin-right: 30px;
     font-size: 19px;
-    font-weight: 700;
+    font-weight: 500;
     color: #000;
     border-radius: 10px;
     text-align: center;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.5s;
 }
 .Smart p.on {
     height: 460px;
+    transition: 0.5s;
 }
 .Smart .left .img01 {
     background: url(../img/smart/cut01_paint_cooking.jpg) no-repeat top
@@ -207,7 +200,6 @@
         center/cover;
 }
 .Smart .txt {
-    font-family: "Noto Sans KR";
     display: none;
 }
 .Smart .txt.on {
@@ -223,99 +215,35 @@
     font-weight: 700;
 }
 /* 
-.Smart
+.Smart;;
  */
 
 /* 
-.Bespoke
+.c03;;
  */
-.Bespoke {
+.c03 {
     background: #fff;
 }
-.Bespoke .container {
-    text-align: center;
-}
-.Bespoke h2 {
-    font-size: 30px;
-    margin-bottom: 10px;
-    font-weight: 500;
-}
-.Bespoke .container > span {
-    display: inline-block;
-    font-size: 19px;
-    font-weight: 300;
-    margin-bottom: 30px;
-}
-.Bespoke .content {
-    display: flex;
-    text-align: left;
-    gap: 20px;
-}
-.Bespoke .itm {
-    display: flex;
-    align-items: flex-end;
-    height: 500px;
-    padding: 25px;
-    border-radius: 10px;
-}
-.Bespoke .itm01 {
-    flex: 2;
-    background: url(../img/m3840x1440/kv_v2.jpg) no-repeat center center/cover;
-}
-.Bespoke .itm02 {
-    flex: 2;
-    background: url(../img/m3840x1440/kv_v3.jpg) no-repeat center center/cover;
-}
-.Bespoke .itm03 {
-    flex: 1;
-    background: url(../img/ss672x672/ss05.jpg) no-repeat center center/cover;
-}
-.Bespoke .txt {
-    color: #fff;
-}
-.Bespoke .txt h3 {
-    font-size: 16px;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-.Bespoke h3 > strong {
-    font-size: 23px;
-    font-weight: 900;
-}
-.Bespoke .txt p {
-    font-size: 13px;
-    font-weight: 400;
-    margin-bottom: 10px;
-}
-.Bespoke .txt a {
-    display: inline-block;
-    font-size: 13px;
-    font-weight: 300;
-    padding: 3px 20px 5px 20px;
-    border: 1px solid #fff;
-    border-radius: 3px;
-}
 /* 
-.Bespoke
+.c03;;
  */
 
 /* 
-.c04
+.c04;;
  */
 .c04 {
     background: #ddd;
-    height: 200vh;
 }
 /* 
-.c04
+.c04;;
  */
 
 /* 
-.c05
+.c05;;
  */
 .c05 {
     background: #fff;
 }
 /* 
-.c05
+.c05;;
  */
