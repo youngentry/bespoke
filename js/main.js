@@ -10,23 +10,19 @@ window.addEventListener("DOMContentLoaded", () => {
             clickable: true,
         },
     });
-
-    const mainSlogan = new Swiper(".mainSlogan", {
-        loop: true,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
-    });
-
-    mainSlider.controller.control = mainSlogan;
-
-    // const smartP = document.querySelector(".Smart p:nth-child(1)");
-    // smartP.addEventListener("click", function () {
-    //     this.classList.add("on");
+    // const mainSlogan = new Swiper(".mainSlogan", {
+    //     loop: true,
+    //     autoplay: {
+    //         delay: 2500,
+    //         disableOnInteraction: false,
+    //     },
+    //     touchRatio: 0,
     // });
 
+    // mainSlider.controller.control = mainSlogan;
+
     const smartP = document.querySelectorAll(".Smart .left>p");
+    const txt = document.querySelectorAll(".Smart .txt");
     smartP.forEach((i, idx) =>
         i.addEventListener("click", (e) => {
             smartP.forEach((i) => {
@@ -34,7 +30,6 @@ window.addEventListener("DOMContentLoaded", () => {
             });
             i.classList.add("on");
 
-            const txt = document.querySelectorAll(".Smart .txt");
             txt.forEach((j) => j.classList.remove("on"));
             let txtIdx = txt[idx];
             txtIdx.classList.add("on");
