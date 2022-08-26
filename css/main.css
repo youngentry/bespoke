@@ -50,7 +50,7 @@
 .MainVisual {
     position: relative;
     width: 100%;
-    margin-bottom: 120px;
+    margin-bottom: 150px;
     overflow-x: hidden;
 }
 .MainVisual .mainSlider figure {
@@ -107,10 +107,10 @@
 .Connect {
     background: #fff;
     text-align: center;
-    margin-bottom: 120px;
+    margin-bottom: 150px;
 }
 .Connect h2 {
-    font-size: 36px;
+    font-size: 30px;
     margin-bottom: 10px;
     font-weight: 500;
 }
@@ -139,10 +139,10 @@
  */
 .Product {
     text-align: center;
-    margin-bottom: 120px;
+    margin-bottom: 150px;
 }
 .Product h2 {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 500;
     margin-bottom: 10px;
 }
@@ -179,7 +179,7 @@
  */
 .Smart {
     text-align: center;
-    margin-bottom: 120px;
+    margin-bottom: 150px;
 }
 .Smart .container {
 }
@@ -191,11 +191,11 @@
     flex: 1;
 }
 .Smart .left {
-    height: 700px;
+    height: 640px;
 }
 
 .Smart h2 {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 500;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -305,13 +305,13 @@
  */
 .Bespoke {
     background: #fff;
-    margin-bottom: 120px;
+    margin-bottom: 150px;
 }
 .Bespoke .container {
     text-align: center;
 }
 .Bespoke h2 {
-    font-size: 36px;
+    font-size: 30px;
     margin-bottom: 10px;
     font-weight: 500;
 }
@@ -379,10 +379,10 @@
  */
 .Story {
     text-align: center;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
 }
 .Story h2 {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 500;
     margin-bottom: 10px;
 }
@@ -397,7 +397,7 @@
     line-height: 1.35;
 }
 .Story .storySlider img {
-    max-height: 400px;
+    max-height: 300px;
     margin-bottom: 15px;
 }
 .Story .storySlider p {
@@ -417,7 +417,73 @@
 .Story
  */
 
+/* .Footer */
 .Footer {
-    height: 600px;
     border-top: 1px solid #ddd;
+    line-height: 1.35;
 }
+.Footer .content {
+    border-bottom: 1px solid #ddd;
+}
+.Footer .container {
+    display: flex;
+}
+.Footer .container > div {
+    padding: 30px 0;
+}
+.Footer .container > div:first-of-type {
+    flex: 2;
+}
+.Footer .container > div ~ div {
+    flex: 1;
+    border-left: 1px solid #ddd;
+    padding-left: 30px;
+}
+.Footer .txt {
+    display: flex;
+}
+.Footer .txt > div {
+    flex: 1;
+}
+.Footer .container h3 {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.Footer .container a {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.Footer .top {
+    margin-bottom: 50px;
+}
+.Footer .contentAdr {
+    line-height: 1.8;
+    padding: 30px 0;
+}
+.Footer .contentAdr .container {
+    display: flex;
+    flex-direction: column;
+}
+.Footer address,
+.Footer .contentAdr p {
+    font-size: 12px;
+    color: #999;
+    font-weight: 500;
+    letter-spacing: -0.05em;
+}
+.Footer .contentAdr .buisnessman {
+    display: inline;
+    font-size: 12px;
+    padding: 2px 10px;
+    background: #888;
+    color: #fff;
+    border-radius: 20px;
+}
+.Footer .contentAdr .copyright {
+    font-weight: 700;
+    letter-spacing: 0;
+}
+/* .Footer */
