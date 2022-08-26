@@ -335,16 +335,16 @@
     padding: 25px;
     border-radius: 10px;
 }
+.Bespoke .itm {
+    flex: 1;
+}
 .Bespoke .itm01 {
-    flex: 2.4;
     background: url(../img/m3840x1440/kv_v2.jpg) no-repeat center center/cover;
 }
 .Bespoke .itm02 {
-    flex: 1;
-    background: url(../img/m3840x1440/kv_v3.jpg) no-repeat center center/cover;
+    background: url(../img/m3840x1440/kv_v3.jpg) no-repeat left 56% center/cover;
 }
 .Bespoke .itm03 {
-    flex: 1;
     background: url(../img/ss672x672/ss05.jpg) no-repeat center center/cover;
 }
 .Bespoke .txt {
