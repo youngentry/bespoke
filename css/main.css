@@ -66,14 +66,25 @@
     background: url(../img/m3840x1440/kv_v4.jpg) no-repeat center center/cover;
 }
 .MainVisual .swiper-pagination {
-    bottom: 30px;
+    bottom: 60px;
 }
 .MainVisual .swiper-pagination-bullet {
     width: 150px;
-    height: 5px;
+    height: 6px;
     border-radius: 0;
     background: var(--mc);
     transition: 0.5s;
+}
+.MainVisual .swiper-pagination::after {
+    content: "";
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-45deg);
+    width: 30px;
+    height: 30px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 .mainSlogan {
     position: absolute;
@@ -97,6 +108,7 @@
 .mainSlogan .swiper-slide-active {
     opacity: 1;
 }
+
 /* 
 .MainVisual
  */
