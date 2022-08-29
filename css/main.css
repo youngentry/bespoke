@@ -50,7 +50,7 @@
 .MainVisual {
     position: relative;
     width: 100%;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
     overflow-x: hidden;
 }
 .MainVisual .mainSlider figure {
@@ -83,8 +83,8 @@
     transform: translateX(-50%) rotate(-45deg);
     width: 30px;
     height: 30px;
-    border-left: 1px solid rgba(255, 255, 255, 0.3);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 .mainSlogan {
     position: absolute;
@@ -119,7 +119,7 @@
 .Connect {
     background: #fff;
     text-align: center;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
 }
 .Connect h2 {
     font-size: 30px;
@@ -129,9 +129,12 @@
 .Connect p {
     font-size: 19px;
     font-weight: 300;
+    margin-bottom: 10px;
 }
 .Connect strong {
+    display: block;
     font-size: 23px;
+    margin-top: 10px;
 }
 .Connect span::after {
     content: "";
@@ -147,43 +150,77 @@
  */
 
 /* 
-.Product
+.Bespoke
  */
-.Product {
+.Bespoke {
+    background: #fff;
+    margin-bottom: 200px;
+}
+.Bespoke .container {
     text-align: center;
-    margin-bottom: 150px;
 }
-.Product h2 {
+.Bespoke h2 {
     font-size: 30px;
-    font-weight: 500;
     margin-bottom: 10px;
+    font-weight: 500;
 }
-.Product .container > span {
+.Bespoke .container > span {
     display: inline-block;
     font-size: 19px;
     font-weight: 300;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
-.Product .content > figure {
-    margin-bottom: 15px;
-}
-.Product .content ul {
+.Bespoke .content {
     display: flex;
-    background: rgb(243, 243, 243);
+    text-align: left;
+    gap: 20px;
 }
-.Product ul > li {
+.Bespoke .itm {
+    display: flex;
+    align-items: flex-end;
+    height: 500px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.Bespoke .itm {
     flex: 1;
 }
-.Product ul img {
-    height: 130px;
-    padding: 20px 30px 15px 30px;
+.Bespoke .itm01 {
+    background: url(../img/m3840x1440/kv_v2.jpg) no-repeat center center/cover;
 }
-.Product ul span {
+.Bespoke .itm02 {
+    background: url(../img/m3840x1440/kv_v3.jpg) no-repeat left 56% center/cover;
+}
+.Bespoke .itm03 {
+    background: url(../img/ss672x672/ss05.jpg) no-repeat center center/cover;
+}
+.Bespoke .txt {
+    color: #fff;
+}
+.Bespoke .txt h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.Bespoke h3 > strong {
+    font-size: 23px;
+    font-weight: 900;
+}
+.Bespoke .txt p {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.Bespoke .txt a {
     display: inline-block;
-    padding-bottom: 20px;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 3px 20px 5px 20px;
+    border: 1px solid #fff;
+    border-radius: 3px;
 }
 /* 
-.Product
+.Bespoke
  */
 
 /* 
@@ -191,7 +228,7 @@
  */
 .Smart {
     text-align: center;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
 }
 .Smart .container {
 }
@@ -216,7 +253,7 @@
     display: inline-block;
     font-size: 19px;
     font-weight: 300;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .Smart .left p {
     height: 50px;
@@ -314,77 +351,43 @@
  */
 
 /* 
-.Bespoke
+.Product
  */
-.Bespoke {
-    background: #fff;
-    margin-bottom: 150px;
-}
-.Bespoke .container {
+.Product {
     text-align: center;
+    margin-bottom: 200px;
 }
-.Bespoke h2 {
+.Product h2 {
     font-size: 30px;
-    margin-bottom: 10px;
     font-weight: 500;
+    margin-bottom: 10px;
 }
-.Bespoke .container > span {
+.Product .container > span {
     display: inline-block;
     font-size: 19px;
     font-weight: 300;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
-.Bespoke .content {
+.Product .content > figure {
+    margin-bottom: 15px;
+}
+.Product .content ul {
     display: flex;
-    text-align: left;
-    gap: 20px;
+    background: rgb(243, 243, 243);
 }
-.Bespoke .itm {
-    display: flex;
-    align-items: flex-end;
-    height: 500px;
-    padding: 25px;
-    border-radius: 10px;
-}
-.Bespoke .itm {
+.Product ul > li {
     flex: 1;
 }
-.Bespoke .itm01 {
-    background: url(../img/m3840x1440/kv_v2.jpg) no-repeat center center/cover;
+.Product ul img {
+    height: 130px;
+    padding: 20px 30px 15px 30px;
 }
-.Bespoke .itm02 {
-    background: url(../img/m3840x1440/kv_v3.jpg) no-repeat left 56% center/cover;
-}
-.Bespoke .itm03 {
-    background: url(../img/ss672x672/ss05.jpg) no-repeat center center/cover;
-}
-.Bespoke .txt {
-    color: #fff;
-}
-.Bespoke .txt h3 {
-    font-size: 16px;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-.Bespoke h3 > strong {
-    font-size: 23px;
-    font-weight: 900;
-}
-.Bespoke .txt p {
-    font-size: 13px;
-    font-weight: 400;
-    margin-bottom: 10px;
-}
-.Bespoke .txt a {
+.Product ul span {
     display: inline-block;
-    font-size: 13px;
-    font-weight: 300;
-    padding: 3px 20px 5px 20px;
-    border: 1px solid #fff;
-    border-radius: 3px;
+    padding-bottom: 20px;
 }
 /* 
-.Bespoke
+.Product
  */
 
 /* 
@@ -403,7 +406,7 @@
     display: inline-block;
     font-size: 19px;
     font-weight: 300;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .Story .storySlider {
